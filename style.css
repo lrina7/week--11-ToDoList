@@ -1,0 +1,44 @@
+.container {
+  background: rgb(150, 150, 221);
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding-top: 1em;
+}
+
+.task {
+  width: 50%;
+  padding: 0.5em;
+}
+
+.button {
+  padding: 0.5em;
+  margin-left: 0.5em;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+.button:hover {
+  background-color: red;
+}
+
+.tasks {
+  font-size: 2em;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
